@@ -1,0 +1,75 @@
+/* Basis-Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nimbus Mono PS', 'Courier New', monospace;  line-height: 1.6;
+  background-image: url('pictures/marble.jpg');
+  color: #333;
+  text-align: center;
+  margin: 10% 20%;
+
+}
+
+ul {
+  text-align: left;
+  padding: 10px;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+
+.content {
+  background-color: white;
+  padding:20px;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.footnote {
+  float: footnote;
+}
+
+/* Table */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
