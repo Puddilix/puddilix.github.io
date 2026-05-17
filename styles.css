@@ -19,12 +19,23 @@ ul {
   text-align: left;
   padding: 10px;
 }
-
 header, footer {
   background-color: #333;
   color: #fff5ff;
   padding: 10px 20px;
   text-align: center;
+}
+
+header a,
+footer a {
+  color: inherit; /* uses #fff5ff automatically */
+  text-decoration: none;
+}
+
+header a:hover,
+footer a:hover {
+  text-decoration: underline;
+  color: #d1d1d1;
 }
 
 p {
@@ -77,17 +88,4 @@ main {
   content: "";
   clear: both;
   display: table;
-}
-
-footer {
-    background: #111827;
-    color: white;
-}
-
-footer a {
-    color: #d1d5db;
-}
-
-footer a:hover {
-    color: white;
 }
