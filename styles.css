@@ -28,7 +28,7 @@ header, footer {
 
 header a,
 footer a {
-  color: inherit; /* uses #fff5ff automatically */
+  color: inherit;
   text-decoration: none;
 }
 
