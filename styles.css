@@ -78,3 +78,16 @@ main {
   clear: both;
   display: table;
 }
+
+footer {
+    background: #111827;
+    color: white;
+}
+
+footer a {
+    color: #d1d5db;
+}
+
+footer a:hover {
+    color: white;
+}
