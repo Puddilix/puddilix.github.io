@@ -132,4 +132,29 @@
         </nav>
     </footer>
 </body>
+
+    <div class="cookie-banner" id="cookieBanner" aria-label="Cookie-Banner">
+  
+  <h2>Cookie-Einstellungen</h2>
+
+  <p>
+    Diese Website verwendet technisch notwendige Cookies.
+  </p>
+
+  <p>
+    Zusätzlich können Analyse-Cookies verwendet werden, um die Website zu verbessern.
+  </p>
+
+  <div class="cookie-actions">
+    <button onclick="closeBanner()">Alle akzeptieren</button>
+    <button onclick="closeBanner()">Nur notwendige Cookies</button>
+    <a href="datenschutz.html">Mehr erfahren</a>
+  </div>
+</div>
+
+<script>
+  function closeBanner() {
+    document.getElementById("cookieBanner").style.display = "none";
+  }
+</script>
 </html>
