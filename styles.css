@@ -19,24 +19,6 @@ ul {
   text-align: left;
   padding: 10px;
 }
-header, footer {
-  background-color: #333;
-  color: #fff5ff;
-  padding: 10px 20px;
-  text-align: center;
-}
-
-header a,
-footer a {
-  color: inherit;
-  text-decoration: none;
-}
-
-header a:hover,
-footer a:hover {
-  text-decoration: underline;
-  color: #d1d1d1;
-}
 
 p {
   padding: 10px;
@@ -53,11 +35,6 @@ img {
   padding:20px;
 }
 
-.bottom_nav {
-  background-color: #fff5ff;
-  padding:20px;
-}
-
 hr {
   margin-bottom: 20px;
 }
@@ -69,12 +46,6 @@ main {
   max-width: 800px;
   margin: 20px auto;
 }
-
-.footnote {
-  float: footnote;
-}
-
-/* Table */
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
